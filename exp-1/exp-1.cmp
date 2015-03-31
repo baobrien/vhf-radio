@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by Cvpcb (2015-03-30 BZR 5554)-product   date = Mon 30 Mar 2015 09:36:07 PM CDT
+
+BeginCmp
+TimeStamp = /551A5272;
+Reference = C1;
+ValeurCmp = 2.7p;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A5255;
+Reference = C2;
+ValeurCmp = 8.2p;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A5399;
+Reference = C3;
+ValeurCmp = .5p;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A55E7;
+Reference = C4;
+ValeurCmp = 12p;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A55ED;
+Reference = C5;
+ValeurCmp = .5p;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A6352;
+Reference = C6;
+ValeurCmp = 1p;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A57F5;
+Reference = C7;
+ValeurCmp = 12p;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A57FB;
+Reference = C8;
+ValeurCmp = .5p;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A5807;
+Reference = C9;
+ValeurCmp = 8.2p;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A580D;
+Reference = C10;
+ValeurCmp = 2.7p;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A5228;
+Reference = L1;
+ValeurCmp = 100n;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A55E1;
+Reference = L2;
+ValeurCmp = 91n;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A57EF;
+Reference = L3;
+ValeurCmp = 91n;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A5801;
+Reference = L4;
+ValeurCmp = 100n;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+EndListe
