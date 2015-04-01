@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-30 BZR 5554)-product   date = Mon 30 Mar 2015 09:36:07 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2015-03-31 BZR 5561)-product   date = Tue 31 Mar 2015 08:02:57 PM CDT
 
 BeginCmp
 TimeStamp = /551A5272;
@@ -71,6 +71,20 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /551B43BD;
+Reference = D1;
+ValeurCmp = BAR64-05;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = /551A3107;
+Reference = FILT1;
+ValeurCmp = MTFILT;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /551A5228;
 Reference = L1;
 ValeurCmp = 100n;
@@ -95,6 +109,20 @@ BeginCmp
 TimeStamp = /551A5801;
 Reference = L4;
 ValeurCmp = 100n;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B4546;
+Reference = L5;
+ValeurCmp = .33u;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B4112;
+Reference = L6;
+ValeurCmp = .33u;
 IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
