@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-30 BZR 5554)-product   date = Thu 02 Apr 2015 07:08:52 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2015-03-31 BZR 5561)-product   date = Fri 03 Apr 2015 12:02:08 AM CDT
 
 BeginCmp
 TimeStamp = /551A5272;
@@ -134,8 +134,22 @@ IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /551E6B08;
+Reference = C20;
+ValeurCmp = .01u;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /551BD423;
 Reference = C21;
+ValeurCmp = .01u;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E683E;
+Reference = C22;
 ValeurCmp = .01u;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
@@ -291,6 +305,20 @@ BeginCmp
 TimeStamp = /551CABE4;
 Reference = C44;
 ValeurCmp = .01u;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E3592;
+Reference = C45;
+ValeurCmp = 470p;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E7EB9;
+Reference = C46;
+ValeurCmp = 470p;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
@@ -575,6 +603,27 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /551E523A;
+Reference = R13;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E5358;
+Reference = R14;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E39ED;
+Reference = R15;
+ValeurCmp = 38R;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /551DF628;
 Reference = SL1;
 ValeurCmp = SDRSEL;
@@ -614,6 +663,13 @@ TimeStamp = /551E3E72;
 Reference = U5;
 ValeurCmp = ADE-1;
 IdModule  = exp-1:PL-052;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E8B91;
+Reference = U6;
+ValeurCmp = Si570;
+IdModule  = exp-1:SI570-HS;
 EndCmp
 
 EndListe

@@ -1,4 +1,4 @@
-update=Thu 02 Apr 2015 09:31:56 PM CDT
+update=Thu 02 Apr 2015 10:40:13 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,5 +58,5 @@ LibName26=siliconi
 LibName27=opto
 LibName28=atmel
 LibName29=contrib
-LibName30=valves
-LibName31=/home/baobrien/vhf-orad/bradylib
+LibName30=/home/baobrien/workspace/vhf-radio/bradylib
+LibName31=valves
