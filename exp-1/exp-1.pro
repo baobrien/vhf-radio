@@ -1,4 +1,4 @@
-update=Tue 31 Mar 2015 12:27:54 AM CDT
+update=Thu 02 Apr 2015 09:31:56 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=../../vhf-orad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,4 +59,4 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/baobrien/workspace/bradylib
+LibName31=/home/baobrien/vhf-orad/bradylib

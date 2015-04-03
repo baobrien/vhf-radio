@@ -4,11 +4,6 @@ $CMP ADE-1
 D Minicircuits ADE-1 Mixer
 $ENDCMP
 #
-$CMP R
-D Resistance
-K R DEV
-$ENDCMP
-#
 $CMP RA
 D Resistance
 K R DEV
@@ -18,7 +13,7 @@ $CMP SDRSEL
 D Solder Bridge Selector
 $ENDCMP
 #
-$CMP Si670
+$CMP Si570
 D Si570 Programmable Oscillator
 $ENDCMP
 #
