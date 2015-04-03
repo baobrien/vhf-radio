@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-30 BZR 5554)-product   date = Thu 02 Apr 2015 04:55:58 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2015-03-30 BZR 5554)-product   date = Thu 02 Apr 2015 07:08:52 PM CDT
 
 BeginCmp
 TimeStamp = /551A5272;
@@ -134,22 +134,8 @@ IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /551B99BA;
-Reference = C20;
-ValeurCmp = 470p;
-IdModule  = Capacitors_SMD:C_0603_HandSoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = /551BD423;
 Reference = C21;
-ValeurCmp = .01u;
-IdModule  = Capacitors_SMD:C_0603_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /551B7B63;
-Reference = C22;
 ValeurCmp = .01u;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
@@ -344,13 +330,6 @@ IdModule  = exp-1:FILTACH32T;
 EndCmp
 
 BeginCmp
-TimeStamp = /551A3107;
-Reference = FILT2;
-ValeurCmp = MTFILT;
-IdModule  = exp-1:FILTACH32T;
-EndCmp
-
-BeginCmp
 TimeStamp = /551D81F7;
 Reference = FILT3;
 ValeurCmp = MTFILT;
@@ -428,13 +407,6 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /551B4112;
-Reference = L10;
-ValeurCmp = .33u;
-IdModule  = Resistors_SMD:R_0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /551C5713;
 Reference = L11;
 ValeurCmp = 100n;
@@ -484,24 +456,17 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /551D37DF;
-Reference = LA1;
+TimeStamp = /551DC5BB;
+Reference = L18;
 ValeurCmp = 100n;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /551D3C4A;
-Reference = LA2;
+TimeStamp = /551DC965;
+Reference = L19;
 ValeurCmp = 100n;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /551E1117;
-Reference = P1;
-ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
@@ -610,6 +575,13 @@ IdModule  = Resistors_SMD:R_0603_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /551DF628;
+Reference = SL1;
+ValeurCmp = SDRSEL;
+IdModule  = exp-1:BSEL2;
+EndCmp
+
+BeginCmp
 TimeStamp = /551B94EA;
 Reference = U1;
 ValeurCmp = ABA-52563;
@@ -635,6 +607,13 @@ TimeStamp = /551CABBA;
 Reference = U4;
 ValeurCmp = AVT-50663;
 IdModule  = exp-1:SOT_363;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E3E72;
+Reference = U5;
+ValeurCmp = ADE-1;
+IdModule  = exp-1:PL-052;
 EndCmp
 
 EndListe

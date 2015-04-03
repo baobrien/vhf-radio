@@ -2,11 +2,11 @@
 
   (general
     (links 141)
-    (no_connects 139)
-    (area 74.244999 94.488 203.200001 157.480001)
+    (no_connects 140)
+    (area 73.717419 94.488 203.200001 157.480001)
     (thickness 1.6)
     (drawings 6)
-    (tracks 0)
+    (tracks 2)
     (zones 0)
     (modules 86)
     (nets 55)
@@ -1726,7 +1726,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 551C379C)
-    (at 94.996 144.514 90)
+    (at 94.996 144.78 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /551A5228)
@@ -2720,6 +2720,9 @@
   (gr_line (start 124.968 116.332) (end 124.968 154.432) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 74.168 116.332) (end 124.968 116.332) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 74.168 154.432) (end 74.168 116.332) (layer Edge.Cuts) (width 0.1))
+
+  (segment (start 77.348 127.574) (end 79.456 127.574) (width 0.3556) (layer F.Cu) (net 10))
+  (segment (start 79.456 127.574) (end 79.888 127.142) (width 0.3556) (layer F.Cu) (net 10))
 
   (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 551C5330) (hatch edge 0.508)
     (connect_pads (clearance 0.508))

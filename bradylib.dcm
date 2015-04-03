@@ -1,19 +1,25 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP ABA-52563
-D MMIC 2.5Ghz amp
-K mmic amplifier amp
+$CMP ADE-1
+D Minicircuits ADE-1 Mixer
 $ENDCMP
 #
-$CMP AVT-50663
-D MMIC 6Ghz amp
-K mmic amplifier amp
+$CMP R
+D Resistance
+K R DEV
 $ENDCMP
 #
-$CMP LM6261
-D Op Amp.
-K AmpliOp
-F AmpliOp.sch
+$CMP RA
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP SDRSEL
+D Solder Bridge Selector
+$ENDCMP
+#
+$CMP Si670
+D Si570 Programmable Oscillator
 $ENDCMP
 #
 #End Doc Library
