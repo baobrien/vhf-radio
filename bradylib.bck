@@ -4,6 +4,11 @@ $CMP ADE-1
 D Minicircuits ADE-1 Mixer
 $ENDCMP
 #
+$CMP LM2937
+D Linear Regulator
+K POWER REGUL
+$ENDCMP
+#
 $CMP RA
 D Resistance
 K R DEV
