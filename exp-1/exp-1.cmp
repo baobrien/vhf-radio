@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-30 BZR 5554)-product   date = Sun 05 Apr 2015 02:39:19 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2015-03-30 BZR 5554)-product   date = Sun 05 Apr 2015 08:26:07 PM CDT
 
 BeginCmp
 TimeStamp = /551A5272;
@@ -554,6 +554,13 @@ IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
+TimeStamp = /5522B8F2;
+Reference = P1;
+ValeurCmp = CONN_8;
+IdModule  = exp-1:2x4_EDGE_.1;
+EndCmp
+
+BeginCmp
 TimeStamp = /551DEF76;
 Reference = P2;
 ValeurCmp = CONN_2;
@@ -894,6 +901,13 @@ TimeStamp = /552001A0;
 Reference = U8;
 ValeurCmp = LM2937;
 IdModule  = SMD_Packages:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = /5522724A;
+Reference = U9;
+ValeurCmp = MCP1703T;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23;
 EndCmp
 
 EndListe
