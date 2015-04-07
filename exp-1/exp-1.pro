@@ -1,4 +1,4 @@
-update=Mon 06 Apr 2015 10:01:43 PM CDT
+update=Mon 06 Apr 2015 10:04:25 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,7 +63,7 @@ LibName31=valves
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=vhf-schematic.pdf
+PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
