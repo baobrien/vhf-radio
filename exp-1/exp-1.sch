@@ -36,9 +36,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "VHF Front End"
 Date ""
-Rev ""
+Rev "1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1351,28 +1351,6 @@ F 4 "VJ0603Y471JXBCW1BC" H 3800 8200 60  0001 C CNN "P"
 	0    1    1    0   
 $EndComp
 $Comp
-L CONN_2 P2
-U 1 1 551DEF76
-P 4650 8300
-F 0 "P2" V 4600 8300 40  0000 C CNN
-F 1 "CONN_2" V 4700 8300 40  0000 C CNN
-F 2 "" H 4650 8300 60  0001 C CNN
-F 3 "" H 4650 8300 60  0000 C CNN
-	1    4650 8300
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_2 P3
-U 1 1 551DF928
-P 15200 9000
-F 0 "P3" V 15150 9000 40  0000 C CNN
-F 1 "CONN_2" V 15250 9000 40  0000 C CNN
-F 2 "" H 15200 9000 60  0001 C CNN
-F 3 "" H 15200 9000 60  0000 C CNN
-	1    15200 9000
-	1    0    0    -1  
-$EndComp
-$Comp
 L INDUCTOR_C L13
 U 1 1 551E15CE
 P 2400 8650
@@ -2681,7 +2659,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 8500 4250 8400
 Wire Wire Line
-	4250 8400 4300 8400
+	4250 8400 4450 8400
 Wire Wire Line
 	2400 9400 2650 9400
 Wire Wire Line
@@ -2701,9 +2679,9 @@ Wire Wire Line
 Wire Wire Line
 	14700 8850 14700 8900
 Wire Wire Line
-	14700 8900 14850 8900
+	14700 8900 14950 8900
 Wire Wire Line
-	14600 9100 14850 9100
+	14600 9100 15100 9100
 Wire Wire Line
 	14700 8450 14700 8350
 Wire Wire Line
@@ -2841,7 +2819,7 @@ Wire Wire Line
 Wire Wire Line
 	11500 1300 11500 1700
 Wire Wire Line
-	10800 1000 11100 1000
+	10600 1000 11100 1000
 Wire Wire Line
 	11900 1000 12350 1000
 Wire Wire Line
@@ -2925,7 +2903,7 @@ Wire Notes Line
 Wire Notes Line
 	7600 4700 10100 4700
 Wire Notes Line
-	10100 4700 10100 6150
+	10100 4400 10100 6150
 Wire Notes Line
 	6650 8250 8400 8250
 Wire Notes Line
@@ -2939,13 +2917,9 @@ Wire Notes Line
 Wire Notes Line
 	15950 6150 15950 7450
 Wire Notes Line
-	10150 4400 10150 6100
+	14200 4400 14200 6150
 Wire Notes Line
-	10150 6100 14200 6100
-Wire Notes Line
-	14200 6100 14200 4400
-Wire Notes Line
-	14200 4400 10150 4400
+	10100 4400 14200 4400
 Wire Wire Line
 	1750 3300 2300 3300
 Wire Wire Line
@@ -3061,7 +3035,7 @@ Connection ~ 10950 1000
 Wire Wire Line
 	10950 1550 10950 1700
 Wire Wire Line
-	10950 1700 13450 1700
+	10600 1700 13450 1700
 Wire Wire Line
 	13450 1700 13450 1550
 Wire Wire Line
@@ -3099,4 +3073,87 @@ Wire Wire Line
 	12550 3150 12100 3150
 Wire Wire Line
 	12100 3250 12550 3250
+Text Notes 12150 2400 0    60   ~ 0
+Control Connections
+Wire Notes Line
+	11800 2200 11800 3500
+Wire Notes Line
+	11800 3500 13150 3500
+Wire Notes Line
+	13150 3500 13150 2200
+Wire Notes Line
+	13150 2200 11800 2200
+Text Notes 10950 750  0    60   ~ 0
+Power Supply
+Wire Notes Line
+	9850 2050 13750 2050
+Wire Notes Line
+	13750 2050 13750 550 
+Wire Notes Line
+	13750 550  9850 550 
+Text Notes 9900 7450 0    60   ~ 0
+Fixed 2% chip inductors
+Text Notes 11300 7450 0    60   ~ 0
+Filter verified in LTSpice
+Text Notes 9250 8850 0    60   ~ 0
++21.5 dB
+Text Notes 4950 5950 0    60   ~ 0
++21.5 dB
+Connection ~ 8150 7700
+Text Notes 6600 6350 0    60   ~ 0
++15 db
+Text Notes 10900 8850 0    60   ~ 0
++15 db
+Text Notes 13000 8850 0    60   ~ 0
++11 db
+$Comp
+L CONN_2 P3
+U 1 1 55233065
+P 10050 1450
+F 0 "P3" V 10000 1450 40  0000 C CNN
+F 1 "CONN_2" V 10100 1450 40  0000 C CNN
+F 2 "" H 10050 1450 60  0001 C CNN
+F 3 "" H 10050 1450 60  0000 C CNN
+	1    10050 1450
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	9850 550  9850 2050
+Wire Wire Line
+	10600 1000 10600 1350
+Wire Wire Line
+	10600 1350 10400 1350
+Wire Wire Line
+	10400 1550 10600 1550
+Wire Wire Line
+	10600 1550 10600 1700
+Connection ~ 10950 1700
+$Comp
+L BNC P4
+U 1 1 55235DD1
+P 15100 8900
+F 0 "P4" H 15110 9020 60  0000 C CNN
+F 1 "BNC" V 15210 8840 40  0000 C CNN
+F 2 "exp-1:TE_BNC_VERT" H 15100 8900 60  0001 C CNN
+F 3 "" H 15100 8900 60  0000 C CNN
+	1    15100 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L BNC P2
+U 1 1 55236B7F
+P 4450 8200
+F 0 "P2" H 4460 8320 60  0000 C CNN
+F 1 "BNC" V 4560 8140 40  0000 C CNN
+F 2 "Connect:bnc-ci" H 4450 8200 60  0001 C CNN
+F 3 "" H 4450 8200 60  0000 C CNN
+	1    4450 8200
+	1    0    0    -1  
+$EndComp
+Text Notes 14100 8200 0    60   ~ 0
+TX Direct/ TX Switch selector\n
+Text Notes 14900 8700 0    60   ~ 0
+TX Direct
+Text Notes 4300 8000 0    60   ~ 0
+TX/RX
 $EndSCHEMATC

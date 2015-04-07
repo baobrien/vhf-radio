@@ -1,4 +1,4 @@
-update=Thu 02 Apr 2015 10:40:13 PM CDT
+update=Mon 06 Apr 2015 10:01:43 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,16 @@ LibName28=atmel
 LibName29=contrib
 LibName30=/home/baobrien/workspace/vhf-radio/bradylib
 LibName31=valves
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=vhf-schematic.pdf
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
