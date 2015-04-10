@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-30 BZR 5554)-product   date = Mon 06 Apr 2015 09:22:43 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2015-03-30 BZR 5554)-product   date = Thu 09 Apr 2015 07:14:37 PM CDT
 
 BeginCmp
 TimeStamp = /551A5272;
@@ -564,7 +564,7 @@ BeginCmp
 TimeStamp = /55236B7F;
 Reference = P2;
 ValeurCmp = BNC;
-IdModule  = Connect:bnc-ci;
+IdModule  = exp-1:SMA_EMNT;
 EndCmp
 
 BeginCmp
@@ -578,7 +578,7 @@ BeginCmp
 TimeStamp = /55235DD1;
 Reference = P4;
 ValeurCmp = BNC;
-IdModule  = exp-1:TE_BNC_VERT;
+IdModule  = exp-1:SMA_EMNT;
 EndCmp
 
 BeginCmp

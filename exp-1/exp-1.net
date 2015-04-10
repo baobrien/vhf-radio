@@ -1,13 +1,13 @@
 (export (version D)
   (design
     (source /home/baobrien/vhf-orad/exp-1/exp-1.sch)
-    (date "Mon 06 Apr 2015 09:07:29 PM CDT")
+    (date "Thu 09 Apr 2015 07:10:59 PM CDT")
     (tool "Eeschema (2015-03-30 BZR 5554)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
-        (title)
+        (title "VHF Front End")
         (company)
-        (rev)
+        (rev 1)
         (date)
         (source exp-1.sch)
         (comment (number 1) (value ""))
@@ -881,7 +881,7 @@
       (tstamp 5522724A))
     (comp (ref P1)
       (value CONN_8)
-      (footprint exp-1:2x4_EDGE_.1)
+      (footprint exp-1:SMA_EMNT)
       (libsource (lib conn) (part CONN_8))
       (sheetpath (names /) (tstamps /))
       (tstamp 5522B8F2))
@@ -892,66 +892,17 @@
       (tstamp 55233065))
     (comp (ref P4)
       (value BNC)
+      (footprint exp-1:SMA_EMNT)
       (libsource (lib device) (part BNC))
       (sheetpath (names /) (tstamps /))
       (tstamp 55235DD1))
     (comp (ref P2)
       (value BNC)
+      (footprint Connect:bnc-ci)
       (libsource (lib device) (part BNC))
       (sheetpath (names /) (tstamps /))
       (tstamp 55236B7F)))
   (libparts
-    (libpart (lib device) (part BNC)
-      (fields
-        (field (name Reference) P)
-        (field (name Value) BNC))
-      (pins
-        (pin (num 1) (name In) (type passive))
-        (pin (num 2) (name Ext) (type passive))))
-    (libpart (lib device) (part C)
-      (description "Condensateur non polarise")
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part FILTER)
-      (description "Filtre EMI")
-      (fields
-        (field (name Reference) FB)
-        (field (name Value) FILTER))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part INDUCTOR)
-      (fields
-        (field (name Reference) L)
-        (field (name Value) INDUCTOR))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part NPN)
-      (docs transistors/bipolar/*.*)
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) NPN))
-      (pins
-        (pin (num 1) (name E) (type passive))
-        (pin (num 2) (name B) (type input))
-        (pin (num 3) (name C) (type passive))))
-    (libpart (lib conn) (part CONN_2)
-      (description "Symbole general de connecteur")
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_2))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name PM) (type passive))))
     (libpart (lib conn) (part CONN_8)
       (description "Symbole general de connecteur")
       (fields
@@ -966,6 +917,49 @@
         (pin (num 6) (name P6) (type passive))
         (pin (num 7) (name P7) (type passive))
         (pin (num 8) (name P8) (type passive))))
+    (libpart (lib device) (part NPN)
+      (docs transistors/bipolar/*.*)
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) NPN))
+      (pins
+        (pin (num 1) (name E) (type passive))
+        (pin (num 2) (name B) (type input))
+        (pin (num 3) (name C) (type passive))))
+    (libpart (lib device) (part BNC)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) BNC))
+      (pins
+        (pin (num 1) (name In) (type passive))
+        (pin (num 2) (name Ext) (type passive))))
+    (libpart (lib device) (part INDUCTOR)
+      (fields
+        (field (name Reference) L)
+        (field (name Value) INDUCTOR))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part FILTER)
+      (description "Filtre EMI")
+      (fields
+        (field (name Reference) FB)
+        (field (name Value) FILTER))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib bradylib) (part 74HC595_)
       (description "8 bits serial in // out Shift Register 3 State Out")
       (docs 74xx/74HC595.pdf)
@@ -1126,16 +1120,24 @@
         (field (name Value) INDUCTOR_C))
       (pins
         (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive)))))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib conn) (part CONN_2)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_2))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive)))))
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical bradylib)
+      (uri /home/baobrien/vhf-orad/bradylib.lib))
     (library (logical exp-1-cache)
       (uri /home/baobrien/vhf-orad/exp-1/exp-1-cache.lib))
-    (library (logical bradylib)
-      (uri /home/baobrien/vhf-orad/bradylib.lib)))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name "Net-(C26-Pad2)")
       (node (ref L11) (pin 2))
