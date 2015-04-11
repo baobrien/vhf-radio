@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-30 BZR 5554)-product   date = Thu 09 Apr 2015 07:14:37 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2015-03-30 BZR 5554)-product   date = Fri 10 Apr 2015 09:32:36 PM CDT
 
 BeginCmp
 TimeStamp = /551A5272;
@@ -563,7 +563,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55236B7F;
 Reference = P2;
-ValeurCmp = BNC;
+ValeurCmp = SMA;
 IdModule  = exp-1:SMA_EMNT;
 EndCmp
 
@@ -571,14 +571,21 @@ BeginCmp
 TimeStamp = /55233065;
 Reference = P3;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /55235DD1;
 Reference = P4;
-ValeurCmp = BNC;
+ValeurCmp = SMA;
 IdModule  = exp-1:SMA_EMNT;
+EndCmp
+
+BeginCmp
+TimeStamp = /552879AB;
+Reference = P5;
+ValeurCmp = CONN_2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
