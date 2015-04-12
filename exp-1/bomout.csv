@@ -1,0 +1,49 @@
+Reference, Value, Footprint, Datasheet, P,1
+R25 R29,300,Resistors_SMD:R_0603_HandSoldering,,,2
+C14 C15 C16 C17 C19 C20 C21 C22 C24 C25 C27 C32 C36 C39 C41 C44,.01u,Capacitors_SMD:C_0603_HandSoldering,,VJ0603Y103KXAAC,16
+L13 L14 L15 L16 L17 L5 L6 L7 L8 L9,.33u,Resistors_SMD:R_0603,,74479762133,10
+C3 C5 C8,.5p,Capacitors_SMD:C_0603_HandSoldering,,,3
+L1 L18 L19 L4,100n,Resistors_SMD:R_0603,,LQW18ANR10G00D,4
+L11,100n,Resistors_SMD:R_0603,,,1
+R18 R19 R20 R23 R24,10K,Resistors_SMD:R_0603_HandSoldering,,,5
+R2 R9,121R,Resistors_SMD:R_0603_HandSoldering,,,2
+C34 C37 C4 C7,12p,Capacitors_SMD:C_0603_HandSoldering,,,4
+C11 C26 C28 C30,15p,Capacitors_SMD:C_0603_HandSoldering,,,4
+R13 R14 R16 R17 R22 R5,1K,Resistors_SMD:R_0603_HandSoldering,,,6
+R21,1k,Resistors_SMD:R_0603_HandSoldering,,,1
+C35 C6,1p,Capacitors_SMD:C_0603_HandSoldering,,,2
+R6,2.2R,Resistors_SMD:R_0603_HandSoldering,,,1
+C1 C10,2.7p,Capacitors_SMD:C_0603_HandSoldering,,,2
+R27 R31,20k,Resistors_SMD:R_0603_HandSoldering,,,2
+R7,22R,Resistors_SMD:R_0603_HandSoldering,,,1
+C47 C48 C49,22u,Capacitors_SMD:C_1206,,,3
+Q1,2n5109,Discret:TO39EBC,,,1
+R4,3.3k,Resistors_SMD:R_0603_HandSoldering,,,1
+R10 R11 R12 R3,331R,Resistors_SMD:R_0603_HandSoldering,,,4
+C42,33p,Capacitors_SMD:C_0603_HandSoldering,,,1
+R15,38R,Resistors_SMD:R_0603_HandSoldering,,,1
+L12,39n,Resistors_SMD:R_0603,,,1
+C12 C13 C18 C23 C31 C38 C43 C45 C46,470p,Capacitors_SMD:C_0603_HandSoldering,,VJ0603Y471JXBCW1BC,9
+R28 R32,47k,Resistors_SMD:R_0603_HandSoldering,,,2
+C33 C40,47p,Capacitors_SMD:C_0603_HandSoldering,,,2
+R26 R30,6.2k,Resistors_SMD:R_0603_HandSoldering,,,2
+R1 R8,680R,Resistors_SMD:R_0603_HandSoldering,,,2
+U7,74HC595_,Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm,,,1
+C2 C29 C9,8.2p,Capacitors_SMD:C_0603_HandSoldering,,,3
+L2 L3,91n,Resistors_SMD:R_0603,,LQW1608A91NG00,2
+U1 U3,ABA-52563,exp-1:SOT_363,,,2
+U5,ADE-1,exp-1:PL-052,,,1
+U2 U4,AVT-50663,exp-1:SOT_363,,,2
+D1 D2,BAR15-1,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,BAR15-1,2
+D3 D4 D5 D6 D7,BAT54C,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,BAR15-1,5
+P3 P5,CONN_2,Pin_Headers:Pin_Header_Straight_1x02,,,2
+P1,CONN_8,exp-1:2x4_EDGE_.1,,,1
+Q4 Q6,DMP3099L,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,,2
+FB1 FB2,FILTER,Choke_SMD:Choke_SMD_1206_Handsoldering,,,2
+U8,LM2937,SMD_Packages:SOT-223,,,1
+U9,MCP1703T,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,,1
+Q2 Q3 Q5,MMBT3904T,Housings_SOT-23_SOT-143_TSOT-6:SOT-23,,,3
+FILT1 FILT3 FILT4,MTFILT,exp-1:FILTACH32T,,EMI471T-RC,3
+SL1,SDRSEL,exp-1:BSEL2,,,1
+U6,Si570,exp-1:SI570-HS,,,1
+P2 P4,SMA,exp-1:SMA_EMNT,,73251-1150,2
