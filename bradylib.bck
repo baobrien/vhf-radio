@@ -35,6 +35,11 @@ D Linear Regulator
 K POWER REGUL
 $ENDCMP
 #
+$CMP MCP1703T
+D Linear Regulator
+K POWER REGUL
+$ENDCMP
+#
 $CMP MMBT3904T
 F transistors/bipolar/*.*
 $ENDCMP

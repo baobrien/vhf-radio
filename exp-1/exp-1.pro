@@ -1,4 +1,4 @@
-update=Fri 10 Apr 2015 11:03:57 PM CDT
+update=Sat 02 May 2015 04:06:37 PM CDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,19 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
 [eeschema]
 version=1
 LibDir=../../vhf-orad
@@ -60,16 +73,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=/home/baobrien/workspace/vhf-radio/bradylib
 LibName31=valves
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
+LibName32=bradylib
