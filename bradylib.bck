@@ -26,6 +26,10 @@ $CMP ADE-1
 D Minicircuits ADE-1 Mixer
 $ENDCMP
 #
+$CMP AP2152
+D 2 port power switch
+$ENDCMP
+#
 $CMP DMP3099L
 F transistors/mos/*.*
 $ENDCMP
