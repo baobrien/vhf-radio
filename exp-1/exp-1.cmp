@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-19 BZR 5670)-product   date = Mon 25 May 2015 09:12:25 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2015-05-19 BZR 5670)-product   date = Fri 29 May 2015 07:26:49 PM CDT
 
 BeginCmp
 TimeStamp = /551A5272;
@@ -141,10 +141,31 @@ IdModule  = Capacitors_SMD:C_0603_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /556498B2;
+Reference = C21;
+ValeurCmp = .01u;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /551E683E;
 Reference = C22;
 ValeurCmp = .01u;
 IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564B24E;
+Reference = C23;
+ValeurCmp = .01u;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564A0F2;
+Reference = C24;
+ValeurCmp = 22u;
+IdModule  = Capacitors_SMD:C_1206;
 EndCmp
 
 BeginCmp
@@ -442,6 +463,62 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
+TimeStamp = /5567E1EE;
+Reference = P6;
+ValeurCmp = U.FL;
+IdModule  = exp-1:A-1JB;
+EndCmp
+
+BeginCmp
+TimeStamp = /5567BBA8;
+Reference = P7;
+ValeurCmp = U.FL;
+IdModule  = exp-1:A-1JB;
+EndCmp
+
+BeginCmp
+TimeStamp = /5567F086;
+Reference = P8;
+ValeurCmp = U.FL;
+IdModule  = exp-1:A-1JB;
+EndCmp
+
+BeginCmp
+TimeStamp = /556517AC;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55650DF6;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5567DB32;
+Reference = R3;
+ValeurCmp = 0R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5567B242;
+Reference = R4;
+ValeurCmp = 0R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5567D550;
+Reference = R5;
+ValeurCmp = 0R;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /551CAC09;
 Reference = R10;
 ValeurCmp = 30R;
@@ -540,9 +617,9 @@ IdModule  = SMD_Packages:SOT-353;
 EndCmp
 
 BeginCmp
-TimeStamp = /552001A0;
+TimeStamp = /55647E60;
 Reference = U8;
-ValeurCmp = LM2937;
+ValeurCmp = NCP1117ST50T3G;
 IdModule  = SMD_Packages:SOT-223;
 EndCmp
 
